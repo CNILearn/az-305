@@ -17,7 +17,7 @@ Demos, notes, links
 - [Learn materials](https://learn.microsoft.com/en-us/training/courses/az-305t00)
 - [GitHub Case Studies](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions)
 
-## 01 - Governance
+## 1 - Governance
 
 - [Larn module](https://learn.microsoft.com/training/modules/design-governance/)
 - [Case study](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/01-Governance.html)
