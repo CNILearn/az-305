@@ -59,9 +59,25 @@ Microsoft doesn’t publish exact IOPS numbers for each tier because performance
 ## 4 - Relational data
 
 - [Learn module](https://learn.microsoft.com/training/modules/design-data-storage-solution-for-relational-data/)
-- [Case study](https://learn.microsoft.com/training/modules/design-data-storage-solution-for-relational-data/)
+- [Case study](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/04-Relationalstorage.html)
 
 ## 5 - Data integration
 
 - [Learn module](https://learn.microsoft.com/training/modules/design-data-integration/)
-- [Case study](https://learn.microsoft.com/training/modules/design-data-storage-solution-for-relational-data/)
+- No case study
+
+## 6 - Application Architecture
+
+- [Learn module](https://learn.microsoft.com/training/modules/design-application-architecture/)
+- [Case study](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/06-Apparchitecture.html)
+- [Serverless functions reference architecture](https://learn.microsoft.com/azure/architecture/serverless-quest/reference-architectures)
+
+## 7 - Design Authentication and Authorization Solutions
+
+- [Learn module](https://learn.microsoft.com/training/modules/design-authentication-authorization-solutions/)
+- [Case study](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/07-Access.html)
+
+## 8 - Log and monitor
+
+- [Learn module](https://learn.microsoft.com/training/modules/design-solution-to-log-monitor-azure-resources/)
+- [Case study](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/08-Logging.html)
