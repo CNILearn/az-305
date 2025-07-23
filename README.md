@@ -110,6 +110,41 @@ More information:
 - [Learn module](https://learn.microsoft.com/training/modules/design-authentication-authorization-solutions/)
 - [Case study](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/07-Access.html)
 
+### Using Managed Identities in On-Premises Environments
+
+#### Azure Arc–enabled servers
+
+Applications or processes running on Azure Arc-enabled servers can use system-assigned managed identities to obtain tokens for any Entra-protected resource. To set this up, install the Azure Connected Machine agent on your non-Azure server; behind the scenes it exposes a local identity endpoint that your code can call for tokens.
+
+Documentation: https://learn.microsoft.com/en-us/azure/azure-arc/servers/managed-identity-authentication
+
+#### Azure Automation Hybrid Workers
+You can run runbooks on on-prem machines under the authentication context of a Managed Identity. Configure a Hybrid Worker Group in your Automation Account, enable the account’s managed identity, install the Hybrid Worker agent on your on-prem VM, then target that group when you start the runbook. This lets your on-prem script call Azure services (Key Vault, Storage, etc.) without storing credentials.
+
+Blog post: https://www.dcac.com/2023/11/27/azure-managed-identity-on-premises/
+
+#### Microsoft Entra cloud-governed management for on-premises workloads
+
+Learn how to extend Entra ID’s identity governance and secure remote access to AD-integrated and federation-based applications running on-prem. Topics include Application Proxy, lifecycle management for on-prem AD accounts, B2B collaboration, and unified governance for both cloud and on-prem apps.
+
+Documentation: https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/cloud-governed-management-for-on-premises
+
+### Managed Identities Across Entra Tenants (Multi-Tenant Scenarios)
+
+#### Federated Identity Credentials for Entra Apps (GA)
+
+You can now configure a user-assigned managed identity as a federated credential on an Entra App registration. This establishes trust so that workloads running under that managed identity—across tenants—can request tokens for your multi-tenant app without secrets or certificates.
+
+Announcing blog: https://devblogs.microsoft.com/identity/access-cloud-resources-across-tenants-without-secrets-ga/
+
+#### Securing managed identities in Microsoft Entra ID
+
+Deep dive into system-assigned vs. user-assigned identities, how token acquisition and RBAC work for both control- and data-plane operations, and best practices for least-privilege and auditing.
+
+Documentation: https://learn.microsoft.com/en-us/entra/architecture/service-accounts-managed-identities
+
+[Microsoft Secure Future Initiative](https://www.microsoft.com/en-us/trust-center/security/secure-future-initiative)
+
 ## 8 - Design a solution to log and monitor Azure resources
 
 - [Learn module](https://learn.microsoft.com/training/modules/design-solution-to-log-monitor-azure-resources/)
