@@ -119,7 +119,7 @@ More information:
 
 - [Learn module](https://learn.microsoft.com/training/modules/design-network-solutions/)
 - [Defense in depth - Video](https://learn.microsoft.com/shows/azure-videos/defense-in-depth-security-in-azure)
-- [Case study](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networking option 2.html)
+- [Case study](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html)
 
 ## 10 - Design a business continuity solution
 
@@ -129,3 +129,4 @@ More information:
 ## 11 - Designing Microsoft Azure Infrastructure Solutions
 
 - [Learn module](https://learn.microsoft.com/training/modules/design-migrations/)
+- No case study
