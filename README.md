@@ -66,6 +66,39 @@ Microsoft doesn’t publish exact IOPS numbers for each tier because performance
 - [Learn module](https://learn.microsoft.com/training/modules/design-data-integration/)
 - No case study
 
+More information:
+
+- [Explore concepts of data analytics](https://learn.microsoft.com/en-us/training/modules/explore-concepts-of-data-analytics/)
+- [Data integration at scale with Azure Data Factory or Azure Synapse Pipeline](https://learn.microsoft.com/en-us/training/paths/data-integration-scale-azure-data-factory/)
+- [Explore Azure Databricks](https://learn.microsoft.com/en-us/training/modules/explore-azure-databricks/)
+- [Introduction to Azure Data Lake Storage Gen2](https://learn.microsoft.com/en-us/training/modules/explore-azure-databricks/)
+- [Introduction to end-to-end analytics using Microsoft Fabric](https://learn.microsoft.com/en-us/training/modules/introduction-end-analytics-use-microsoft-fabric/)
+
+### 🧰 Feature Comparison
+| Platform | Core Purpose | Key Features | Integration & Use Cases | 
+|-----|-------|-----------|-------------|
+| Azure Data Lake | Scalable storage for big data | - Hierarchical namespace<br>- Hadoop-compatible<br>- Tiered storage options | - Stores structured & unstructured data<br>- Used with Spark, Synapse | 
+| Azure Data Factory | Data integration & ETL orchestration | - 180+ connectors<br>- Data pipelines<br>- Mapping Data Flows | - ETL/ELT workflows<br>- Hybrid data movement<br>- SSIS support | 
+| Azure Databricks | Advanced analytics & machine learning | - Apache Spark engine<br>- Collaborative notebooks<br>- ML & AI support | - Big data processing<br>- Real-time analytics<br>- ML pipelines | 
+| Azure Synapse | Unified analytics & data warehousing | - Serverless & dedicated SQL pools<br>- Spark integration<br>- Data Explorer | - BI, data warehousing<br>- Real-time telemetry<br>- SQL + Spark | 
+| Microsoft Fabric | End-to-end analytics platform | - OneLake unified storage<br>- Copilot AI<br>- Real-time & BI tools | - Combines Synapse, Power BI, Data Factory<br>- AI-powered insights | 
+
+### 💰 Pricing Overview
+| Platform | Pricing Model | Estimated Monthly Cost (Typical Usage) |
+|-----|-------|-----------|
+| Azure Data Lake | Pay-as-you-go (based on GB stored & ops) | - Hot: ~$0.15/GB<br>- Cool: ~$0.02/GB<br>- Archive: ~$0.002/GB | 
+| Azure Data Factory | Based on pipeline runs, DIU hours, data ops | - Orchestration: ~$1 per 1,000 runs<br>- Data movement: ~$0.25/DIU-hour | 
+| Azure Databricks | VM + DBU (Databricks Unit) usage | - Jobs Compute: ~$0.30/DBU<br>- All-Purpose: ~$0.55/DBU | 
+| Azure Synapse | Serverless (per query) or Dedicated (DWU) | - Serverless SQL: ~$5/TB processed<br>- Dedicated SQL: ~$1.20/hour for DWU100 | 
+| Microsoft Fabric | Capacity-based (F SKUs) + OneLake storage | - F2: ~$262/month<br>- F64: ~$8,409/month<br>- OneLake: ~$0.023/GB | 
+
+### 🧠 Summary
+- Azure Data Lake is best for scalable, secure storage of raw data.
+- Azure Data Factory excels at orchestrating data movement and transformation.
+- Azure Databricks is ideal for data scientists and engineers working on ML and big data.
+- Azure Synapse Analytics offers a powerful hybrid of SQL and Spark for enterprise analytics.
+- Microsoft Fabric unifies all these capabilities into a single, AI-powered platform with seamless integration.
+
 ## 6 - Application Architecture
 
 - [Learn module](https://learn.microsoft.com/training/modules/design-application-architecture/)
@@ -77,7 +110,22 @@ Microsoft doesn’t publish exact IOPS numbers for each tier because performance
 - [Learn module](https://learn.microsoft.com/training/modules/design-authentication-authorization-solutions/)
 - [Case study](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/07-Access.html)
 
-## 8 - Log and monitor
+## 8 - Design a solution to log and monitor Azure resources
 
 - [Learn module](https://learn.microsoft.com/training/modules/design-solution-to-log-monitor-azure-resources/)
 - [Case study](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/08-Logging.html)
+
+## 9 - Design a network solution
+
+- [Learn module](https://learn.microsoft.com/training/modules/design-network-solutions/)
+- [Defense in depth - Video](https://learn.microsoft.com/shows/azure-videos/defense-in-depth-security-in-azure)
+- [Case study](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networking option 2.html)
+
+## 10 - Design a business continuity solution
+
+- [Learn module](https://learn.microsoft.com/training/modules/design-solution-for-backup-disaster-recovery/)
+- No case study
+
+## 11 - Designing Microsoft Azure Infrastructure Solutions
+
+- [Learn module](https://learn.microsoft.com/training/modules/design-migrations/)
