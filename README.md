@@ -150,6 +150,17 @@ Documentation: https://learn.microsoft.com/en-us/entra/architecture/service-acco
 - [Learn module](https://learn.microsoft.com/training/modules/design-solution-to-log-monitor-azure-resources/)
 - [Case study](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/08-Logging.html)
 
+### Reference modules
+
+- [Design a full-stack monitoring strategy on Azure](https://learn.microsoft.com/training/modules/design-monitoring-strategy-on-azure/)
+- [Analyze your Azure infrastructure by using Azure Monitor logs](https://learn.microsoft.com/learn/modules/analyze-infrastructure-with-azure-monitor-logs/)
+- [Monitor your Azure virtual machines with Azure Monitor](https://learn.microsoft.com/training/modules/monitor-azure-vm-using-diagnostic-data/)
+- [Monitor app performance](https://learn.microsoft.com/training/modules/monitor-app-performance/)
+
+### Optional exercise
+
+- [Enabling storage metrics and view metric data](https://learn.microsoft.com/en-us/training/modules/monitor-diagnose-and-troubleshoot-azure-storage/4-exercise-storage-metrics)
+
 ## 9 - Design a network solution
 
 - [Learn module](https://learn.microsoft.com/training/modules/design-network-solutions/)
