@@ -21,6 +21,16 @@ Demos, notes, links
 
 - [Larn module](https://learn.microsoft.com/training/modules/design-governance/)
 - [Case study](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/01-Governance.html)
+
+### Reference Modules
+
+- [Control and organize Azure resources with Azure Resource Manager](https://learn.microsoft.com/training/modules/control-and-organize-with-azure-resource-manager/)
+- [Describe core Azure architectural components](https://learn.microsoft.com/learn/modules/azure-architecture-fundamentals/)
+- [Build a cloud governance strategy on Azure](https://learn.microsoft.com/learn/modules/build-cloud-governance-strategy-azure/)
+- [Introduction to the Microsoft Azure Well Architected Framework](https://learn.microsoft.com/training/modules/azure-well-architected-introduction/)
+
+### More information
+
 - [Management Groups](https://learn.microsoft.com/azure/cloud-adoption-framework/ready/landing-zone/design-area/resource-org-management-groups)
 - [Subscriptions decision guide](https://learn.microsoft.com/azure/cloud-adoption-framework/decision-guides/subscriptions/)
 - [What is ARM](https://docs.microsoft.com/azure/azure-resource-manager/management/overview)
@@ -39,7 +49,6 @@ Demos, notes, links
 
 - [Learn module](https://learn.microsoft.com/training/modules/design-data-storage-solution-for-non-relational-data/)
 - [Case study](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/03-Nonrelationalstorage.html)
-
 
 ### Latency & IOPS Overview
 
@@ -66,7 +75,7 @@ Microsoft doesn’t publish exact IOPS numbers for each tier because performance
 - [Learn module](https://learn.microsoft.com/training/modules/design-data-integration/)
 - No case study
 
-More information:
+### Reference Modules
 
 - [Explore concepts of data analytics](https://learn.microsoft.com/en-us/training/modules/explore-concepts-of-data-analytics/)
 - [Data integration at scale with Azure Data Factory or Azure Synapse Pipeline](https://learn.microsoft.com/en-us/training/paths/data-integration-scale-azure-data-factory/)
@@ -167,10 +176,28 @@ Documentation: https://learn.microsoft.com/en-us/entra/architecture/service-acco
 - [Defense in depth - Video](https://learn.microsoft.com/shows/azure-videos/defense-in-depth-security-in-azure)
 - [Case study](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html)
 
+### Reference modules
+
+- [AZ-700 Designing and Implementing Microsoft Azure Networking Solutions](https://learn.microsoft.com/training/paths/design-implement-microsoft-azure-networking-solutions-az-700/)
+- [Architecture network infrastructure](https://learn.microsoft.com/training/paths/architect-network-infrastructure/)
+
+### Optional exercises
+
+- [Distribute your services across Azure virtual networks](https://learn.microsoft.com/training/modules/integrate-vnets-with-vnet-peering/)
+- [Secure and isolate access using network security groups](https://learn.microsoft.com/training/modules/secure-and-isolate-with-nsg-and-service-endpoints/)
+
 ## 10 - Design a business continuity solution
 
 - [Learn module](https://learn.microsoft.com/training/modules/design-solution-for-backup-disaster-recovery/)
 - No case study
+
+### Reference modules
+
+- [Protect your virtual machines by using Azure Backup](https://learn.microsoft.com/training/modules/protect-virtual-machines-with-azure-backup/)
+- [Disaster recovery and backup](https://learn.microsoft.com/learn/modules/cmu-disaster-recovery-backup/)
+- [Back up and restore your Azure SQL database](https://learn.microsoft.com/learn/modules/backup-restore-azure-sql/)
+- [Protect your Azure infrastructure with Azure Site Recovery](https://learn.microsoft.com/learn/modules/protect-infrastructure-with-site-recovery/)
+- [Design your site recovery solution in Azure](https://learn.microsoft.com/learn/modules/design-your-site-recovery-solution-in-azure/)
 
 ## 11 - Designing Microsoft Azure Infrastructure Solutions
 
